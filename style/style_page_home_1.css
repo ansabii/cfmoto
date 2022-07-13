@@ -1054,8 +1054,8 @@ button {
 
     .section-benefits {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        ;
         height: 500px;
+        margin-left: 20px;
     }
 
     .benefits__title {
@@ -1283,17 +1283,14 @@ button {
         margin-bottom: 3%;
     }
 
-    .sertificate-container {
+    .sertificate-container,
+    .gifts__sale {
         flex-direction: column-reverse;
+        margin-left: 15px;
     }
 
     .gifts__sertificate-info {
         width: 95%;
-    }
-
-    .sertificate-container,
-    .gifts__sale {
-        flex-direction: column-reverse;
     }
 
     .gifts__birthday {
@@ -1338,23 +1335,27 @@ button {
     }
 
     .gifts__sertificate-image {
+        background-image: url(../assets/img/gifts/Mask\ Group_bow.png);
+        background-repeat: no-repeat;
+        background-color: #373737;
+        border-radius: 9px;
         width: 342px;
         height: 190px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .gifts__sertificate-image-info {
-        padding-top: 89px;
-        padding-left: 22px;
+        padding-top: 50px;
+        padding-left: 50px;
         font-weight: 700;
         font-size: 18px;
     }
 
     .gifts__sertificate-image-logo {
-        display: flex;
         width: 60px;
         height: 76px;
-        align-self: center;
-        margin-left: 47px;
+        margin-left: 20px;
     }
 
     .gifts__sale-title {

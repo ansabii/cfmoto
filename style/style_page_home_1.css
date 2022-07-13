@@ -447,7 +447,7 @@ h3 {
 }
 
 .terms__cell {
-    max-height: 110px;
+    max-height: 112px;
     background-color: #ffff;
     border-radius: 9px;
     display: flex;
@@ -462,6 +462,7 @@ h3 {
     font-size: 14px;
     line-height: 21px;
     padding-left: 23px;
+    max-height: 89px;
 }
 
 .terms__text-bold {
@@ -1061,9 +1062,9 @@ button {
     }
 
     .section-benefits {
-        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-        height: 800px;
-        width: 90%;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        height: 500px;
+        padding-left: 20px;
     }
 
     .benefits__title {
@@ -1422,11 +1423,6 @@ button {
 }
 
 @media screen and (max-width:450px) {
-    .section-benefits {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        height: 850px;
-        width: 90%;
-    }
 
     .faq-container__accordion {
         max-width: 100%;

@@ -926,11 +926,11 @@ button {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .contacts__item-schedule {
     margin-left: 5%;
-    margin-top: 2%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -939,19 +939,31 @@ button {
 .footer__links {
     display: flex;
     margin-bottom: 16px;
+    justify-content: space-around;
+    max-width: 35%;
 }
-
-
 
 .contacts__item {
     flex-basis: 50%;
     display: flex;
 }
 
+.contacts__item-time {
+    margin-top: -5%;
+}
+
+.links-insta,
+.links-whatsup {
+    flex-basis: 7%;
+    max-width: 7%;
+}
+
+
 .contacts__item-home,
 .contacts__item-phone,
 .contacts__item-email {
     margin-right: 5%;
+    margin-bottom: 20px;
 }
 
 .footer__container-nav {

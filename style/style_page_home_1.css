@@ -1403,6 +1403,36 @@ button {
         font-size: 24px;
         font-weight: 800;
     }
+
+    [for=burger] {
+        display: block;
+        position: fixed;
+        width: 120px;
+        text-align: center;
+        right: 20px;
+        top: 20px;
+    }
+
+    .header__nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        margin-top: 30px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(18, 18, 20, 0.8);
+    }
+
+    #burger:checked+label+nav {
+        display: block;
+    }
+
+    .phone {
+        display: none;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -1457,5 +1487,35 @@ button {
     .footer__nav-list {
         margin-left: 20px;
         margin-top: -10px;
+    }
+
+    [for=burger] {
+        display: block;
+        position: fixed;
+        width: 120px;
+        text-align: center;
+        right: 20px;
+        top: 20px;
+    }
+
+    .header__nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        margin-top: 30px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(18, 18, 20, 0.8);
+    }
+
+    #burger:checked+label+nav {
+        display: block;
+    }
+
+    .phone {
+        display: none;
     }
 }

@@ -447,6 +447,7 @@ h3 {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .terms__text {
@@ -819,6 +820,7 @@ button {
 
 .extra-service {
     margin: 0px 0px 100px 0px;
+
 }
 
 .extra_container {
@@ -1222,6 +1224,12 @@ button {
         width: 90%;
         margin: 0 auto;
         margin-top: 10px;
+    }
+
+    .section__title {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .extra__container {

@@ -413,6 +413,10 @@ h3 {
     width: 100%;
 }
 
+.terms__icon {
+    margin: 5px 5px 5px 5px;
+}
+
 .terms__title {
     text-align: center;
     align-content: center;
@@ -1183,11 +1187,22 @@ button {
     .terms__table {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .terms__cell {
         max-width: 340px;
         height: 91px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        max-width: 164px;
+        max-height: 41px;
+    }
+
+    .text-item__button {
+        margin-bottom: 20px;
     }
 
     .section__faq-container {

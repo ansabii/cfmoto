@@ -12,7 +12,7 @@ body {
     font-family: 'Montserrat';
     max-width: 1440px;
     width: 100%;
-    max-height: 9068px;
+    /* max-height: 9068px; */
     margin: 0 auto;
 }
 
@@ -193,6 +193,7 @@ h3 {
     grid-gap: 31px;
     max-width: 1380px;
     width: 100%;
+    padding-left: 70px;
 }
 
 .benefits__title {
@@ -393,6 +394,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
+    max-width: 100%;
 }
 
 .video-block {
@@ -401,7 +403,7 @@ h3 {
     background-size: cover;
     background-position: center;
     min-height: 594px;
-    max-width: 1440px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -526,13 +528,12 @@ h3 {
 
 .section-photo {
     max-width: 100%;
-    max-height: 600px;
     background-color: #F4F4F4;
     margin-bottom: 100px;
 }
 
 .section-scroll__title {
-    padding: 100px 0 100px;
+    padding: 50px 0 50px;
     display: flex;
     justify-content: center;
     font-style: normal;
@@ -544,6 +545,7 @@ h3 {
 
 .section-photo__box {
     display: flex;
+    justify-content: center;
     overflow-x: auto;
     margin-bottom: 100px;
 }
@@ -607,7 +609,7 @@ h3 {
 }
 
 .section__title {
-    margin-bottom: 42px;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -646,7 +648,6 @@ h3 {
 .links-insta:hover {
     transform: scale(1.1);
 }
-
 
 .gifts {
     height: 1123px;
@@ -823,24 +824,6 @@ button {
     margin-left: 220px;
 }
 
-.extra-service {
-    margin: 0px 0px 100px 0px;
-
-}
-
-.extra_container {
-    display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas:
-        "ex1 ex2 ex3 ex4"
-        "ex5 ex6 ex7 ex8";
-    column-gap: 2%;
-    row-gap: 2%;
-    justify-content: center;
-    padding-top: 55px;
-}
-
 .extra__container {
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
@@ -851,7 +834,7 @@ button {
     column-gap: 2%;
     row-gap: 2%;
     justify-content: center;
-    padding-top: 55px;
+    padding-top: 10px;
 }
 
 .extra__item {
@@ -1076,9 +1059,9 @@ button {
     }
 
     .section-benefits {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        height: 500px;
-        margin-left: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        height: 800px;
+        width: 90%;
     }
 
     .benefits__title {
@@ -1094,7 +1077,7 @@ button {
     }
 
     .section-test {
-        margin-top: 180px;
+        margin-top: 20px;
     }
 
     .subtitle__test {
@@ -1144,11 +1127,6 @@ button {
         margin-top: 20px;
     }
 
-    .section-tour {
-        max-width: 360px;
-        width: 100%;
-    }
-
     .item {
         flex-direction: column;
     }
@@ -1181,14 +1159,14 @@ button {
     }
 
     .video-block {
-        max-width: 360px;
+        max-width: 100%;
         width: 100%;
-        max-height: 440px;
     }
 
     .video-block__video {
         width: 340px;
     }
+
 
     .terms__table {
         display: flex;
@@ -1355,6 +1333,7 @@ button {
 
     .gifts__special-offer {
         height: 900px;
+        margin: 0 auto;
     }
 
     .gifts__cottages {
@@ -1371,6 +1350,10 @@ button {
     .gifts__sertificate-info {
         width: 95%;
         padding-top: 24px;
+    }
+
+    .gifts__sertificate-title {
+        text-align: center;
     }
 
     .gifts__sertificate-image {
@@ -1434,6 +1417,12 @@ button {
 }
 
 @media screen and (max-width:450px) {
+    .section-benefits {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        height: 850px;
+        width: 90%;
+    }
+
     .faq-container__accordion {
         max-width: 100%;
         margin-bottom: 30px;

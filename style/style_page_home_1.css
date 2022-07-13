@@ -460,9 +460,9 @@ h3 {
 .terms__text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 18px;
     padding-left: 23px;
-    max-height: 89px;
+    height: 89px;
 }
 
 .terms__text-bold {
